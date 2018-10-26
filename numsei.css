@@ -1,0 +1,50 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,900');
+</style>
+/*
+criar as var
+Combinado: criar vars começando com --
+Aplicação: var(--nome-variavel);
+*/
+:root{
+	--cor-fundo:#e50247;
+	--cor-fundo-mensagens:#ffd41d;
+	--padding-arejamento: 4rem; 
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+html,
+body{
+	height: 100vh;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+body{
+	align-items: center; 
+	background: var(--cor-fundo);
+	display: flex;
+	justify-content: center;
+}
+#principal{
+	display: flex;
+	background: white;
+	height: 80vh;
+	width: 80vw;
+} 
+
+#mensagens{
+	background: #ffd41d;
+	padding: ; 
+}
+
+#mensagens img{
+	height: 40px;
+}
+
+#formulario-contrato{
+	flex: 2;
+}
